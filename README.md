@@ -14,8 +14,6 @@ A video demonstration of MITO is available in `MITO_Video.mov`. It can also be s
 
 
 # Accessing Data
-For the current submission, we provide data for one sample object at: 
-
 In the camera ready, we will provide an AWS link for the dataset in its entirety. To maintain anonymity, we currently provide data for one sample object at: https://drive.google.com/drive/folders/102Fiumd-HWXV_wIBj8oZeB9sXy81qmLg?usp=sharing
 
 Download the zip file from the anonymous google drive, and extract it within the `data/` folder. 
