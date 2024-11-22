@@ -21,16 +21,25 @@ Download the zip file from the anonymous google drive, and extract it within the
 # Visualizing Data
 Data can be visualized by running `cd src/utils && python3 visualization.py`. More details can be found in the documentation of that python file.
 
+# Running the Simulation
+The simulation can be run with the `run_simulation.sh` file in the simulation folder. See the file for more details. 
+
+# Processing mmWave Images
+Real-World mmWave images can be processed using `robot_imager.sh` file in the data_processing folder. See the file for more details. 
+
 # Classifier
 Run `train_classifier.py` to recreate the current classifier results. 
 
-# Running the Simulation
-The simulation can be run with the `run_simulation.sh` file. See the file for more details. 
+Please note that this cannot be run with only the sample data. It will be available for the camera ready when the full dataset is released.
+
+# Segmentation
+Run `evaluate_segmentation.py` to recreate the current segmentation results. 
+
+Please note that this cannot be run with only the sample data. It will be available for the camera ready when the full dataset is released.
 
 # Tutorials 
-NOTE: The tutorials will be provided with the camera ready release. 
+We will be providing the following tutorials at the release of the camera ready to explain different features of this repository. 
 
-We provide the following tutorials to introduce different features of this repository. All tutorials are in the `tutorials\` folder.
 ### 1. Loading and Visualizing the Dataset
 This tutorial introduces the dataset (contents and structure) and shows how to download, access, and visualize the data. If your goal is to build new models using the previously processed images, this tutorial should be sufficient for your goals. The remainder of the tutorials show more advanced functionality (e.g., building models on this dataset or simulating/processing new images.)
 
